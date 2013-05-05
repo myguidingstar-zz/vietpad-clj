@@ -1,0 +1,46 @@
+#   phonetic transformation rules for Vietnamese
+#   Copyright (C) 2005 Quan Nguyen
+#
+#   This rule set is based on Lawrence Phillips original metaphone 
+#   algorithm with modifications made by Michael Kuhn in his
+#   C implantation, more modifications by Björn Jacke when
+#   converting the algorithm to a rule set and minor 
+#   touch ups by Kevin Atkinson
+#   See http://aspell.net/man-html/Phonetic-Code.html#Phonetic%20Code
+
+version 1.0
+
+ED$	_
+ING$	_
+ION$	_
+S$	_
+F	PH
+(AÀẢÃÁẠ)	A
+(ĂẰẲẴẮẶ)	A
+(ÂẦẨẪẤẬ)	A
+B	B
+C	C
+(DĐ)	D
+(EÈẺẼÉẸ)	E
+(ÊỀỂỄẾỆ)	E
+G	G
+H	H
+(IÌỈĨÍỊ)	I
+K	K
+L	L
+M	M
+N	N
+OU	UO
+(OÒỎÕÓỌ)	O
+(ÔỒỔỖỐỘ)	O
+(ƠỜỞỠỚỢ)	O
+P	P
+Q	Q
+R	R
+S	S
+T	T
+(UÙỦŨÚỤ)	U
+(ƯỪỬỮỨỰ)	U
+V	V
+X	X
+(YỲỶỸÝỴ)	Y

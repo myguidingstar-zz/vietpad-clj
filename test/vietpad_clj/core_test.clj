@@ -24,7 +24,7 @@
          "hôm nay trời đẹp")))
 
 (deftest sort-str-test
-  (is (= (sort-str ["a" "a" "a"])
-         ["a" "a" "a"]))
-  (is (= (sort-str ["a" "a" "a"] true)
-         ["a" "a" "a"])))
+  (is (= (sort-str ["à" "á" "ả" "ã"])
+         ["à" "ả" "ã" "á"]))
+  (is (= (sort-str ["à" "á" "ả" "ã"] true)
+         ["á" "ã" "ả" "à"])))
